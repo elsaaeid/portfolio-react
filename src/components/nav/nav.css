@@ -1,0 +1,70 @@
+nav {
+  background: rgb(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 55px;
+}
+
+nav a:hover {
+  background: rgb(0, 0, 0, 0.4);
+}
+
+nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+@media screen and (max-width: 540px) {
+  nav {
+    transform: translateX(-54%);
+  }
+  nav a {
+    font-size: 21px;
+}
+}
+@media screen and (max-width: 412px) {
+  nav {
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav a {
+  font-size: 20px;
+  padding: 9px;
+}
+}
+@media screen and (max-width: 375px) {
+  nav {
+    transform: translate(-181px);
+}
+nav a {
+  font-size: 21px;
+  padding: 6px;
+}
+  }
+
+  @media screen and (max-width: 280px) {
+    nav {
+      transform: translate(-133px);
+  }
+    nav a {
+      font-size: 13px;
+      padding: 3px;
+  }
+    }

@@ -1,0 +1,265 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--color-primary),
+ transparent
+);
+  display: grid;
+  place-items: center;
+}
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.about__me-image:hover {
+  transform: rotate(0);
+}
+
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.about__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.about__icon {
+  background: var(--color-primary);
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+.about__card h5 {
+  font-size: 26px;
+}
+.about__card small {
+  font-size: 25px;
+  color: var(--color-light);
+}
+.about__content p {
+  margin: 2rem 0px 2.6rem;
+  color: var(--color-light);
+  font-size: 27px;
+  width: 40rem;
+}
+
+/* ===================MEDIA QUERIES (MEDIUM DEVICES) =============================*/
+@media screen and (max-width: 1280px) {
+.about__me {
+  width: 39%;
+  margin-left:205px;
+  margin-bottom: 48px;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--color-primary), transparent );
+  display: grid;
+  place-items: center;
+}
+}
+@media screen and (max-width: 1024px) {
+.about__container {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+.about__me {
+  width: 50%;
+  margin: 2rem auto 4rem;
+}
+.about__content p {
+  margin: 1rem 0 1.5rem;
+}
+}
+@media screen and (max-width: 912px){
+section {
+    margin-top: -4rem;
+}
+.about__me {
+  margin: 2rem auto 9rem;
+}
+}
+/* ===================MEDIA QUERIES (SMALL DEVICES) =============================*/
+@media screen and (max-width: 820px) {
+.about__me {
+    width: 50%;
+    margin: 2rem auto 9rem;
+}
+.about__cards {
+  margin-left: -53px;
+}
+}
+@media screen and (max-width: 768px) {
+  section {
+    margin-top: 5rem;
+}
+.about__me {
+  margin-left: 112px;
+}
+.about__content p {
+  margin-left: 84px;
+}
+.about__content {
+  margin-left: -124px;
+}
+.about__cards {
+  margin-left: 52px;
+}
+a.aboutA.btn.btn-primary {
+  margin-left: 284px;
+  width: 15rem;
+  font-size: 33px;
+}
+}
+@media screen and (max-width: 600px) {
+.about__me {
+  width: 65%;
+  margin: 0 auto 3rem; 
+}
+.about__cards {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.about__content {
+  text-align: center;
+}
+.about__content p {
+  margin: 1.5rem 0;
+}
+}
+@media screen and (max-width: 540px){
+  section {
+    margin-top: 3rem;
+}
+.about__me {
+    width: 36%;
+    margin: 13px auto 6rem;
+}
+.about__cards {
+  margin-left: 139px;
+  margin-right: 14px;
+}
+.about__content p {
+  font-size: 22px;
+  width: 39rem;
+}
+}
+@media screen and (max-width: 414px) {
+  .about__me-image {
+    width: 71%;
+} 
+}
+@media screen and (max-width: 412px) {
+  .about__me {
+    width: 60%;
+    margin: 1rem auto 4rem;
+}
+.about__cards {
+  display: flex;
+  flex-direction: column;
+  margin-left: 157px;
+}
+  .about__card {
+    width: 70vw;
+}
+.about__content p {
+  font-size: 19px;
+  width: 84vw;
+}
+}
+@media screen and (max-width: 393px) {
+.about__me {
+  width: 68%;
+  margin: 1rem auto 4rem;
+}
+.about__cards {
+  display: flex;
+  flex-direction: column;
+  margin-left: 153px;
+}
+.about__content p {
+  font-size: 17px;
+  width: 91vw;
+  margin-left: 112px;
+}
+a.aboutA.btn.btn-primary {
+  margin-left: 134px;
+}
+}
+@media screen and (max-width: 375px) {
+  .container.about__container {
+    display: flex;
+    flex-direction: column;
+}
+.about__me {
+  width: 37%;
+  margin: 0px auto 2rem;
+}
+article.about__card {
+  width: 9rem;
+  padding: 18px;
+}
+.about__icon {
+    font-size: 23px;
+}
+.about__card h5 {
+  font-size: 19px;
+}
+.about__card small {
+  font-size: 12px;
+}
+.about__content p {
+  font-size: 15px;
+  width: 20rem;
+}
+  }
+  @media screen and (max-width: 360px){
+  article.about__card {
+    width: 15rem;
+    padding: 18px;
+}
+.about__me {
+  width: 60%;
+  margin: 1rem auto 4rem;
+}
+}
+  @media screen and (max-width: 280px){
+  .about__cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+  article.about__card {
+    width: 13rem;
+    margin-left: 47px;
+}
+.about__content p {
+  font-size: 16px;
+  width: 16rem;
+  margin-left: 107px;
+}
+a.aboutA.btn.btn-primary {
+  font-size: 23px;
+  margin-left: 107px;
+  width: 70vw;
+}
+  }
+
+
