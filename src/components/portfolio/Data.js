@@ -11,7 +11,12 @@ import port12 from '../../assets/port12.PNG';
 import port13 from '../../assets/port13.PNG';
 import port14 from '../../assets/port14.PNG';
 import port15 from '../../assets/port15.PNG';
-import port16 from '../../assets/port16.png';
+import fiqi from '../../assets/fiqi.png';
+import matha from '../../assets/matha.png';
+import myTeacher from '../../assets/myTeacher.png';
+import weather from '../../assets/weather.png';
+import running from '../../assets/running.png';
+import puzzle from '../../assets//puzzle.png';
 
 
 import graph1 from '../../assets/1.jpg';
@@ -91,6 +96,14 @@ export const webData =  [
     webDemo: 'https://elsaaeid.github.io/counter/'
   },
   {
+    id: 9,
+    webImage: matha,
+    webTitle: 'egyMarket',
+    webDesc: 'responsive website using (html,css,bootstrap,javaScript)',
+    webGithub: 'https://github.com/elsaaeid/matha',
+    webDemo: 'https://elsaaeid.github.io/matha/'
+  },
+  {
     id: 10,
     webImage: port10,
     webTitle: 'ForestCompany',
@@ -132,11 +145,43 @@ export const webData =  [
   },
   {
     id: 16,
-    webImage: port16,
-    webTitle: 'weather-app',
+    webImage: weather,
+    webTitle: 'weather-web',
     webDesc: 'responsive website using (html,css,javaScript)',
     webGithub: 'https://github.com/elsaaeid/weather-app',
     webDemo: 'https://elsaaeid.github.io/weather-app/'
+  },
+  {
+    id: 17,
+    webImage: running,
+    webTitle: 'Running-app',
+    webDesc: 'responsive website using (html,css,javaScript)',
+    webGithub: 'https://github.com/elsaaeid/Running-Measuring-APP',
+    webDemo: 'https://elsaaeid.github.io/Running-Measuring-APP/'
+  },
+  {
+    id: 18,
+    webImage: fiqi,
+    webTitle: 'alFiqi',
+    webDesc: 'responsive website using (html,css,javaScript)',
+    webGithub: 'https://github.com/elsaaeid/alfiqi-gate',
+    webDemo: 'https://elsaaeid.github.io/alfiqi-gate/'
+  },
+  {
+    id: 19,
+    webImage: myTeacher,
+    webTitle: 'myTeacher',
+    webDesc: 'responsive website using (html,css,javaScript)',
+    webGithub: 'https://github.com/elsaaeid/myTeacher',
+    webDemo: 'https://elsaaeid.github.io/myTeacher/'
+  },
+  {
+    id: 20,
+    webImage: puzzle,
+    webTitle: 'puzzleGame',
+    webDesc: 'responsive website using (html,css,javaScript)',
+    webGithub: 'https://github.com/elsaaeid/PuzzleGame',
+    webDemo: 'https://elsaaeid.github.io/PuzzleGame/'
   },
   ]
   

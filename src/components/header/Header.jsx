@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/me-about.png';
+import ME from '../../assets/me.png';
 import HeaderSocials from './HeaderSocials';
 
 
