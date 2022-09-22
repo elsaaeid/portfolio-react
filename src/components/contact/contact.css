@@ -10,7 +10,6 @@
   flex-direction: column;
   grid-gap: 2rem;
   gap: 2rem;
-  margin-left: -64px;
 }
 
 .contact__option {
@@ -56,7 +55,7 @@ input, textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
+  background: #00000061;
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
@@ -68,14 +67,18 @@ input, textarea {
 
 
 /* ===================MEDIA QUERIES (MEDIUM DEVICES) =============================*/
-
+@media screen and (max-width: 1280px) {
+form {
+  margin-left: 50px;
+}
+}
 @media screen and (max-width: 1024px) {
 .contact__container {
   grid-template-columns: lfr;
   gap: 2rem;
 }
 form {
-  margin-left: 87px;
+  margin-left: 119px;
   width: 90%;
 }
 .about__me {
@@ -85,8 +88,8 @@ form {
 }
 @media screen and (max-width: 912x) {
   form {
-    margin-left: 119px;
-    width: 94%;
+    margin-left: 121px;
+    width: 90%;
 }
   }
 /* ===================MEDIA QUERIES (SMALL DEVICES) =============================*/
@@ -121,7 +124,7 @@ form {
   margin-left: -5px;
 }
 .contact__options {
-  margin-left: 32px;
+  margin-left: 21px;
 }
 }
 @media screen and (max-width: 375px) {
@@ -136,8 +139,8 @@ form {
   }
   @media screen and (max-width: 360px) {
     .contact__options {
-      margin-left: 0px;
       width: 20rem;
+      margin: auto;
   }
   }
   @media screen and (max-width: 280px) {

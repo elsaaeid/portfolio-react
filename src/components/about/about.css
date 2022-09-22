@@ -123,9 +123,10 @@ section {
   margin-left: 52px;
 }
 a.aboutA.btn.btn-primary {
-  margin-left: 284px;
   width: 15rem;
   font-size: 33px;
+  margin: auto;
+  margin-left: 88px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -157,8 +158,11 @@ a.aboutA.btn.btn-primary {
   margin-right: 14px;
 }
 .about__content p {
-  font-size: 22px;
+  font-size: 18px;
   width: 39rem;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 37px;
 }
 }
 @media screen and (max-width: 414px) {

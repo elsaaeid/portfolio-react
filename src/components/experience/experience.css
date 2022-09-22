@@ -127,11 +127,11 @@ article.experience__details h4 {
 }
 @media screen and (max-width: 375px) {
   .container.experience__container {
-    margin-left: 10px;
+    margin: auto;
 }
 .experience__container > div {
   padding: 2rem 1rem;
-  margin-left: -11px;
+  margin-left: auto;
 }
   .experience__container > div h3 {
     font-size: 17px;
@@ -148,9 +148,9 @@ article.experience__details h4 {
 }
  }
  @media screen and (max-width: 360px){
- .container.experience__container {
-  margin-left: 50px;
-  width: 15rem;
+  .container.experience__container {
+    margin-left: auto;
+    width: 15rem;
 }
 }
  @media screen and (max-width: 280px){
