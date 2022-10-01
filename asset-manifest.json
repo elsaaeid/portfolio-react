@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.ddc33b8a.css",
-    "main.js": "/portfolio-react/static/js/main.f384c234.js",
+    "main.js": "/portfolio-react/static/js/main.0774b483.js",
     "static/media/5.mp4": "/portfolio-react/static/media/5.5aaad25e0a855076e217.mp4",
     "static/media/5.jpg": "/portfolio-react/static/media/5.9038296cc16a5f5cf2cc.jpg",
     "static/media/7.png": "/portfolio-react/static/media/7.51a8e83ea96afaee7d52.png",
@@ -14,6 +14,7 @@
     "static/media/port1.png": "/portfolio-react/static/media/port1.1c5344544c59809cb145.png",
     "static/media/port5.png": "/portfolio-react/static/media/port5.388677ce679b45373851.png",
     "static/media/port3.png": "/portfolio-react/static/media/port3.bb4d63ef5351a83692fd.png",
+    "static/media/react1.png": "/portfolio-react/static/media/react1.eac6876a75761ba183f7.png",
     "static/media/port10.PNG": "/portfolio-react/static/media/port10.cff935feae7905aff66b.PNG",
     "static/media/myTeacher.png": "/portfolio-react/static/media/myTeacher.b4e24992925b4096151d.png",
     "static/media/port6.png": "/portfolio-react/static/media/port6.b4628bc79c3ee9dc7f9f.png",
@@ -34,10 +35,10 @@
     "static/media/port15.PNG": "/portfolio-react/static/media/port15.c063f2295ea9070c63f0.PNG",
     "index.html": "/portfolio-react/index.html",
     "main.ddc33b8a.css.map": "/portfolio-react/static/css/main.ddc33b8a.css.map",
-    "main.f384c234.js.map": "/portfolio-react/static/js/main.f384c234.js.map"
+    "main.0774b483.js.map": "/portfolio-react/static/js/main.0774b483.js.map"
   },
   "entrypoints": [
     "static/css/main.ddc33b8a.css",
-    "static/js/main.f384c234.js"
+    "static/js/main.0774b483.js"
   ]
 }
