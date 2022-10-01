@@ -1,6 +1,6 @@
 import {React, useState} from 'react';
 import './portfolio.css';
-import {webData, graphDate, videoDate} from './Data.js';
+import {webData, graphDate, videoDate, reactData} from './Data.js';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
@@ -58,8 +58,8 @@ function Portfolio() {
                   <p>{webDesc}</p>
                   </div>
                   <div className="portfolio__item-cta ">
-                  <a href={webGithub} className="btn" target='_blank'>Github</a>
-                  <a href={webDemo} className="btn btn-primary" target='_blank'>Live Demo</a>
+                  <a href={webGithub} className="btn">Github</a>
+                  <a href={webDemo} className="btn btn-primary">Live Demo</a>
                   </div>
                 </article>
                 )
@@ -67,7 +67,25 @@ function Portfolio() {
             }
             </div>
             <div className={toggleState === 2 ? "content active-content" : "content"}>
-            <reactTutorilweb/>
+            {
+              reactData.map(({id, webImage, webTitle, webDesc, webGithub, webDemo}) => {
+                return (
+                  <article className='portfolio__item'>
+                  <div className="portfolio__item-image">
+                    <img src={webImage} alt={webTitle}/>
+                  </div>
+                  <div className="portfolio__item-details ">
+                  <h6>{webTitle}</h6>
+                  <p>{webDesc}</p>
+                  </div>
+                  <div className="portfolio__item-cta ">
+                  <a href={webGithub} className="btn">Github</a>
+                  <a href={webDemo} className="btn btn-primary">Live Demo</a>
+                  </div>
+                </article>
+                )
+              })
+            }
             </div>
             <div className={toggleState === 3 ? "content active-content" : "content"}>
             {
@@ -81,7 +99,7 @@ function Portfolio() {
                 <h6>{gTitle}</h6>
                 </div>
                 <div className="portfolio__item-cta ">
-                <a href={gDemo} className="btn btn-primary" target='_blank'>Live Demo</a>
+                <a href={gDemo} className="btn btn-primary">Live Demo</a>
                 </div>
               </article>
               )
@@ -102,7 +120,7 @@ function Portfolio() {
                 <h6>{vTitle}</h6>
                 </div>
                 <div className="portfolio__item-cta ">
-                <a href={vDemo} className="btn btn-primary" target='_blank'>Live Demo</a>
+                <a href={vDemo} className="btn btn-primary">Live Demo</a>
                 </div>
               </article>
               )

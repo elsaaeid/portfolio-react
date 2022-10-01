@@ -16,8 +16,8 @@ import matha from '../../assets/matha.png';
 import myTeacher from '../../assets/myTeacher.png';
 import weather from '../../assets/weather.png';
 import running from '../../assets/running.png';
-import puzzle from '../../assets//puzzle.png';
-
+import puzzle from '../../assets/puzzle.png';
+import react1 from '../../assets/react1.png';
 
 import graph1 from '../../assets/1.jpg';
 import graph2 from '../../assets/2.jpg';
@@ -185,6 +185,17 @@ export const webData =  [
   },
   ]
   
+  export const reactData =  [
+    {
+     id: 1,
+     webImage: react1,
+     webTitle: 'fashion glasses',
+     webDesc: 'website using (react.js, slick-carousel, useState, useRef, useEffect, @reduxjs/toolkit, reactStrap)',
+     webGithub: 'https://github.com/elsaaeid/fashion-glasses',
+     webDemo: 'https://elsaaeid.github.io/fashion-glasses/'
+   },
+  ]
+
   export const graphDate = [
   
     {
