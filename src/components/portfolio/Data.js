@@ -18,7 +18,7 @@ import weather from '../../assets/weather.png';
 import running from '../../assets/running.png';
 import puzzle from '../../assets/puzzle.png';
 import react1 from '../../assets/react1.png';
-
+import react2 from '../../assets/react2.png';
 import graph1 from '../../assets/1.jpg';
 import graph2 from '../../assets/2.jpg';
 import graph3 from '../../assets/3.jpg';
@@ -190,10 +190,18 @@ export const webData =  [
      id: 1,
      webImage: react1,
      webTitle: 'fashion glasses',
-     webDesc: 'website using (react.js, slick-carousel, useState, useRef, useEffect, @reduxjs/toolkit, reactStrap)',
+     webDesc: 'website using (slick-carousel, useState, useRef, useEffect, @reduxjs/toolkit, reactStrap)',
      webGithub: 'https://github.com/elsaaeid/fashion-glasses',
      webDemo: 'https://elsaaeid.github.io/fashion-glasses/'
    },
+   {
+    id: 2,
+    webImage: react2,
+    webTitle: 'Ranen stationery',
+    webDesc: 'website using (framer-motion, prop-types, tailwind-css, react-bootstrap, react-icons, react-use-cart, react-owl-carousel, react-router-dom)',
+    webGithub: 'https://github.com/elsaaeid/ranen-stationery',
+    webDemo: 'https://elsaaeid.github.io/ranen-stationery/'
+  },
   ]
 
   export const graphDate = [
