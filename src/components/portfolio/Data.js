@@ -35,8 +35,8 @@ export const webData =  [
      webImage: Port1,
      webTitle: 'My Portfolio',
      webDesc: 'responsive website using (html,css,bootstrap,javascript)',
-     webGithub: 'https://github.com/elsaaeid/portfolio',
-     webDemo: 'https://elsaaeid.github.io/portfolio/'
+     webGithub: 'https://github.com/elsaaeid/two-portfolio',
+     webDemo: 'https://elsaaeid.github.io/two-portfolio/'
    },
     {
      id: 2,
