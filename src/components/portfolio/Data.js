@@ -8,7 +8,6 @@ import Port7 from '../../assets/port7.png';
 import port8 from '../../assets/port8.PNG';
 import port10 from '../../assets/port10.PNG';
 import port12 from '../../assets/port12.PNG';
-import port13 from '../../assets/port13.PNG';
 import port14 from '../../assets/port14.PNG';
 import port15 from '../../assets/port15.PNG';
 import fiqi from '../../assets/fiqi.png';
