@@ -114,18 +114,10 @@ export const webData =  [
   {
     id: 12,
     webImage: port12,
-    webTitle: 'Creative-Portfolio',
-    webDesc: 'responsive website using (html,css,javaScript)',
-    webGithub: 'https://github.com/elsaaeid/Creative-Portfolio',
-    webDemo: 'https://elsaaeid.github.io/Creative-Portfolio/'
-  },
-  {
-    id: 13,
-    webImage: port13,
-    webTitle: 'two-portfolio',
-    webDesc: 'responsive website using (html,css,javaScript)',
-    webGithub: 'https://github.com/elsaaeid/two-portfolio',
-    webDemo: 'https://elsaaeid.github.io/two-portfolio/'
+    webTitle: 'Dilivirya',
+    webDesc: 'responsive website using (html,css,sass, bootstrap, javaScript)',
+    webGithub: 'https://github.com/elsaaeid/Dilivirya',
+    webDemo: 'https://elsaaeid.github.io/Dilivirya/'
   },
   {
     id: 14,
