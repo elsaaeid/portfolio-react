@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.ddc33b8a.css",
-    "main.js": "/portfolio-react/static/js/main.cfedb703.js",
+    "main.js": "/portfolio-react/static/js/main.4ba10ea0.js",
     "static/media/5.mp4": "/portfolio-react/static/media/5.5aaad25e0a855076e217.mp4",
     "static/media/5.jpg": "/portfolio-react/static/media/5.9038296cc16a5f5cf2cc.jpg",
     "static/media/react2.png": "/portfolio-react/static/media/react2.3c4a0a2246fc9329f8c4.png",
@@ -9,6 +9,7 @@
     "static/media/9.png": "/portfolio-react/static/media/9.b6db831a9673cf4ca7ac.png",
     "static/media/4.jpg": "/portfolio-react/static/media/4.fa5f31e3ff3520f19ced.jpg",
     "static/media/Avatar.png": "/portfolio-react/static/media/Avatar.4f7af45e88719742e504.png",
+    "static/media/port12.PNG": "/portfolio-react/static/media/port12.56d76deabec38083eb90.PNG",
     "static/media/me.png": "/portfolio-react/static/media/me.519a08dfa2016eaf75fa.png",
     "static/media/react1.png": "/portfolio-react/static/media/react1.41ac12c67df0c6804e19.png",
     "static/media/1.jpg": "/portfolio-react/static/media/1.5d931ae2a3a4ba627208.jpg",
@@ -19,9 +20,7 @@
     "static/media/port10.PNG": "/portfolio-react/static/media/port10.cff935feae7905aff66b.PNG",
     "static/media/myTeacher.png": "/portfolio-react/static/media/myTeacher.b4e24992925b4096151d.png",
     "static/media/port6.png": "/portfolio-react/static/media/port6.b4628bc79c3ee9dc7f9f.png",
-    "static/media/port13.PNG": "/portfolio-react/static/media/port13.d00a7dc2c0011848977c.PNG",
     "static/media/port4.png": "/portfolio-react/static/media/port4.e2fd217aca7a39f09f03.png",
-    "static/media/port12.PNG": "/portfolio-react/static/media/port12.6906eddebfc210301156.PNG",
     "static/media/2.jpg": "/portfolio-react/static/media/2.40b84b6c14ae83750a66.jpg",
     "static/media/port2.png": "/portfolio-react/static/media/port2.075cf8e096e231d218d7.png",
     "static/media/running.png": "/portfolio-react/static/media/running.15be72c7be34abb6917f.png",
@@ -36,10 +35,10 @@
     "static/media/port15.PNG": "/portfolio-react/static/media/port15.c063f2295ea9070c63f0.PNG",
     "index.html": "/portfolio-react/index.html",
     "main.ddc33b8a.css.map": "/portfolio-react/static/css/main.ddc33b8a.css.map",
-    "main.cfedb703.js.map": "/portfolio-react/static/js/main.cfedb703.js.map"
+    "main.4ba10ea0.js.map": "/portfolio-react/static/js/main.4ba10ea0.js.map"
   },
   "entrypoints": [
     "static/css/main.ddc33b8a.css",
-    "static/js/main.cfedb703.js"
+    "static/js/main.4ba10ea0.js"
   ]
 }
