@@ -18,6 +18,7 @@ import running from '../../assets/running.png';
 import puzzle from '../../assets/puzzle.png';
 import react1 from '../../assets/react1.png';
 import react2 from '../../assets/react2.png';
+import react3 from '../../assets/react3.png';
 import graph1 from '../../assets/1.jpg';
 import graph2 from '../../assets/2.jpg';
 import graph3 from '../../assets/3.jpg';
@@ -192,6 +193,14 @@ export const webData =  [
     webDesc: 'website using (framer-motion, prop-types, tailwind-css, react-bootstrap, react-icons, react-use-cart, react-owl-carousel, react-router-dom)',
     webGithub: 'https://github.com/elsaaeid/ranen-stationery',
     webDemo: 'https://elsaaeid.github.io/ranen-stationery/'
+  },
+  {
+    id: 3,
+    webImage: react3,
+    webTitle: 'Motiv',
+    webDesc: 'website using ( Hooks, tailwind-css, react-bootstrap, react-icons, react-router-dom)',
+    webGithub: 'https://github.com/elsaaeid/motiv',
+    webDemo: 'https://elsaaeid.github.io/motiv/',
   },
   ]
 
