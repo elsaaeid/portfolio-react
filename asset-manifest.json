@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.707ac2fe.css",
-    "main.js": "/portfolio-react/static/js/main.4daae48f.js",
+    "main.js": "/portfolio-react/static/js/main.4af5e139.js",
     "static/media/5.mp4": "/portfolio-react/static/media/5.5aaad25e0a855076e217.mp4",
     "static/media/me1.png": "/portfolio-react/static/media/me1.6e756c04bb2b675e5887.png",
     "static/media/5.jpg": "/portfolio-react/static/media/5.9038296cc16a5f5cf2cc.jpg",
@@ -27,8 +27,6 @@
     "static/media/running.png": "/portfolio-react/static/media/running.15be72c7be34abb6917f.png",
     "static/media/puzzle.png": "/portfolio-react/static/media/puzzle.b15f84d315a010fb2dda.png",
     "static/media/fiqi.png": "/portfolio-react/static/media/fiqi.b7bafd76644588906e79.png",
-    "static/media/port7.png": "/portfolio-react/static/media/port7.b314cd46397301080de0.png",
-    "static/media/port8.PNG": "/portfolio-react/static/media/port8.ef59b62dc2bc311476ec.PNG",
     "static/media/matha.png": "/portfolio-react/static/media/matha.07152151bf8da6293085.png",
     "static/media/weather.png": "/portfolio-react/static/media/weather.54cde0e04fd2e0eb55ac.png",
     "static/media/port14.PNG": "/portfolio-react/static/media/port14.3fdf0653bd3084ac23de.PNG",
@@ -36,10 +34,10 @@
     "static/media/port15.PNG": "/portfolio-react/static/media/port15.c063f2295ea9070c63f0.PNG",
     "index.html": "/portfolio-react/index.html",
     "main.707ac2fe.css.map": "/portfolio-react/static/css/main.707ac2fe.css.map",
-    "main.4daae48f.js.map": "/portfolio-react/static/js/main.4daae48f.js.map"
+    "main.4af5e139.js.map": "/portfolio-react/static/js/main.4af5e139.js.map"
   },
   "entrypoints": [
     "static/css/main.707ac2fe.css",
-    "static/js/main.4daae48f.js"
+    "static/js/main.4af5e139.js"
   ]
 }
