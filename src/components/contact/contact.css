@@ -101,7 +101,7 @@ form {
 }
 @media screen and (max-width: 540px) {
   .contact__option h3 {
-    font-size: 17px;
+    font-size: 16px;
 }
 button.btn.btn-primary {
   width: 197px;
@@ -136,6 +136,9 @@ form {
     margin-left: 13px;
     width: 20rem;
 }
+.contact__option h3 {
+  font-size: 16px;
+}
   }
   @media screen and (max-width: 360px) {
     .contact__options {
@@ -144,6 +147,9 @@ form {
   }
   }
   @media screen and (max-width: 280px) {
+    .contact__option h3 {
+      font-size: 16px;
+  }
   a.btn {
     font-size: 9px;
 }

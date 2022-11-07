@@ -24,9 +24,9 @@
   text-align: center;
   margin-bottom: 2rem;
   cursor: default;
-  color: var(--color-primary);
 }
 .experience__content {
+  margin: inherit;
   display: grid;
   grid-template-columns: lfr lfr;
   row-gap: 2rem; 
