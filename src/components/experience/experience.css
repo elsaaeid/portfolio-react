@@ -26,7 +26,7 @@
   cursor: default;
 }
 .experience__content {
-  margin: inherit;
+  margin: inherit;                          
   display: grid;
   grid-template-columns: lfr lfr;
   row-gap: 2rem; 
