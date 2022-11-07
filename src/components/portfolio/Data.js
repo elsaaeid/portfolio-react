@@ -4,8 +4,8 @@ import Port3 from '../../assets/port3.png';
 import Port4 from '../../assets/port4.png';
 import Port5 from '../../assets/port5.png';
 import Port6 from '../../assets/port6.png';
-import Port7 from '../../assets/port7.png';
-import port8 from '../../assets/port8.PNG';
+// import Port7 from '../../assets/port7.png';
+// import port8 from '../../assets/port8.PNG';
 import port10 from '../../assets/port10.PNG';
 import port12 from '../../assets/port12.PNG';
 import port14 from '../../assets/port14.PNG';
@@ -79,22 +79,22 @@ export const webData =  [
      webGithub: 'https://github.com/elsaaeid/it-next',
      webDemo: 'https://elsaaeid.github.io/it-next/'
    },
-    {
-     id: 7,
-     webImage: Port7,
-     webTitle: 'Dashboard',
-     webDesc: 'responsive website using (html,css,bootstrap)',
-     webGithub: 'https://github.com/elsaaeid/Dashboard',
-     webDemo: 'https://elsaaeid.github.io/Dashboard/'
-   },
-   {
-    id: 8,
-    webImage: port8,
-    webTitle: 'Counter',
-    webDesc: 'responsive website using (html,css,javaScript)',
-    webGithub: 'https://github.com/elsaaeid/counter',
-    webDemo: 'https://elsaaeid.github.io/counter/'
-  },
+  //   {
+  //    id: 7,
+  //    webImage: Port7,
+  //    webTitle: 'Dashboard',
+  //    webDesc: 'responsive website using (html,css,bootstrap)',
+  //    webGithub: 'https://github.com/elsaaeid/Dashboard',
+  //    webDemo: 'https://elsaaeid.github.io/Dashboard/'
+  //  },
+  //  {
+  //   id: 8,
+  //   webImage: port8,
+  //   webTitle: 'Counter',
+  //   webDesc: 'responsive website using (html,css,javaScript)',
+  //   webGithub: 'https://github.com/elsaaeid/counter',
+  //   webDemo: 'https://elsaaeid.github.io/counter/'
+  // },
   {
     id: 9,
     webImage: matha,

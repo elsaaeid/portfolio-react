@@ -13,6 +13,7 @@
   --color-bg: #7e3eff;
   --color-bg-variant: #463388;
   --color-primary: #3e0d94;  
+  --color-link: #007bff;
   --color-primary-variant: rgba(133, 77, 255, 0.41);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.88);
@@ -75,7 +76,7 @@ section > h2 {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-link);
   transition: var(--transition);
 }
 
@@ -85,7 +86,7 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-white);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   font-size: 29px;

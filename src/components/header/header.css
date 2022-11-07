@@ -43,7 +43,9 @@ header {
   bottom: 3rem;
   font-size: 32px;
 }
-
+.header__socials a {
+  color: var(--color-primary);
+}
 .header__socials::after {
   content: '';
   width: 1px;
@@ -66,6 +68,7 @@ header {
 /*==================SCROLL-DOWN=====================*/
 
 .scroll__down {
+  color: var(--color-primary);
   position: absolute;
   right: -6.3rem;
   bottom: 5rem;
