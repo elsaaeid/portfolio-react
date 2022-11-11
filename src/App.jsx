@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
@@ -10,16 +11,35 @@ import Footer from './components/footer/Footer';
  
 
 const App = () => {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
   return (
     <div className='container'>
-      <Header/>
-      <Nav/>
-      <About/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+      {loading ? (
+        <div className="loader-container">
+      	  <div className="spinner"></div>
+        </div>
+      ) 
+      : 
+      (
+      <>
+        <Header/>
+        <Nav/>
+        <About/>
+        <Experience/>
+        <Services/>
+        <Portfolio/>
+        <Contact/>
+        <Footer/>
+      </>
+      )
+    }
     </div>
   )
 }

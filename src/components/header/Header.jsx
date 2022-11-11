@@ -13,7 +13,7 @@ class Header extends Component {
             <header>
                 <div className='container header__container'>
 					<h5>Hello I'm</h5>
-					<h1>Elsaaeid Ellithy</h1>
+					<h1>Elsaaeid</h1>
 					<h5 className='text-light'>ReactJs Developer</h5>
 					<CTA />
 					<HeaderSocials/>

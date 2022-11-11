@@ -4,12 +4,10 @@ import Port3 from '../../assets/port3.png';
 import Port4 from '../../assets/port4.png';
 import Port5 from '../../assets/port5.png';
 import Port6 from '../../assets/port6.png';
-// import Port7 from '../../assets/port7.png';
-// import port8 from '../../assets/port8.PNG';
 import port10 from '../../assets/port10.PNG';
-import port12 from '../../assets/port12.PNG';
+import port12 from '../../assets/port12.png';
 import port14 from '../../assets/port14.PNG';
-import port15 from '../../assets/port15.PNG';
+import port15 from '../../assets/port15.png';
 import fiqi from '../../assets/fiqi.png';
 import matha from '../../assets/matha.png';
 import myTeacher from '../../assets/myTeacher.png';
@@ -19,8 +17,6 @@ import puzzle from '../../assets/puzzle.png';
 import react1 from '../../assets/react1.png';
 import react2 from '../../assets/react2.png';
 import react3 from '../../assets/react3.png';
-import graph1 from '../../assets/1.jpg';
-import graph2 from '../../assets/2.jpg';
 import graph3 from '../../assets/3.jpg';
 import graph4 from '../../assets/4.jpg';
 import graph5 from '../../assets/5.jpg';
@@ -58,10 +54,10 @@ export const webData =  [
     {
      id: 4,
      webImage: Port4,
-     webTitle: 'Faster Motors',
+     webTitle: 'Fun Motors',
      webDesc: 'responsive website using (html,css,bootstrap,javascript)',
-     webGithub: 'https://github.com/elsaaeid/faster-motors',
-     webDemo: 'https://elsaaeid.github.io/faster-motors/'
+     webGithub: 'https://github.com/elsaaeid/fun-motors',
+     webDemo: 'https://elsaaeid.github.io/fun-motors/'
    },
     {
      id: 5,
@@ -79,22 +75,6 @@ export const webData =  [
      webGithub: 'https://github.com/elsaaeid/it-next',
      webDemo: 'https://elsaaeid.github.io/it-next/'
    },
-  //   {
-  //    id: 7,
-  //    webImage: Port7,
-  //    webTitle: 'Dashboard',
-  //    webDesc: 'responsive website using (html,css,bootstrap)',
-  //    webGithub: 'https://github.com/elsaaeid/Dashboard',
-  //    webDemo: 'https://elsaaeid.github.io/Dashboard/'
-  //  },
-  //  {
-  //   id: 8,
-  //   webImage: port8,
-  //   webTitle: 'Counter',
-  //   webDesc: 'responsive website using (html,css,javaScript)',
-  //   webGithub: 'https://github.com/elsaaeid/counter',
-  //   webDemo: 'https://elsaaeid.github.io/counter/'
-  // },
   {
     id: 9,
     webImage: matha,
@@ -130,7 +110,7 @@ export const webData =  [
   {
     id: 15,
     webImage: port15,
-    webTitle: 'login--logout',
+    webTitle: 'Form',
     webDesc: 'responsive website using (html,css,javaScript)',
     webGithub: 'https://github.com/elsaaeid/login--logout',
     webDemo: 'https://elsaaeid.github.io/login--logout/'
@@ -206,18 +186,6 @@ export const webData =  [
 
   export const graphDate = [
   
-    {
-        id: 1,
-        gImage: graph1,
-        gTitle: 'business-card',
-        gDemo: 'https://www.behance.net/gallery/139238993/business-card/modules/786927113'
-      },
-      {
-       id: 2,
-       gImage: graph2,
-       gTitle: 'paints-card',
-       gDemo: 'https://www.behance.net/gallery/139239447/paints-card/modules/786930547'
-     },
       {
        id: 3,
        gImage: graph3,
