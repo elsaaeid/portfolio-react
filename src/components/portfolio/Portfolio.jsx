@@ -9,12 +9,11 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function Portfolio() {
 
   const [toggleState, setToggleState] = useState(1);
-  const toogleTab = (index) => {
+  const toggleTab = (index) => {
     setToggleState(index);
   };
     return (
          <section id='portfolio' >
-           <h5>My React Work</h5>
            <h2>Portfolio</h2>
 
            <Dropdown className='block-tabs'>
@@ -25,21 +24,21 @@ function Portfolio() {
               <Dropdown.Menu>
                 <Dropdown.Item 
                 className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
-                onClick={() =>toogleTab(1)}>
+                onClick={() =>toggleTab(1)}>
                   Front end
                 </Dropdown.Item>
                 <Dropdown.Item 
                 className={toggleState === 2 ? "tabs active-tabs" : "tabs"} 
-                onClick={() =>toogleTab(2)}>
+                onClick={() =>toggleTab(2)}>
                   React Js
                   </Dropdown.Item>
                 <Dropdown.Item 
                 className={toggleState === 3 ? "tabs active-tabs" : "tabs"} 
-                onClick={() =>toogleTab(3)}>
+                onClick={() =>toggleTab(3)}>
                   Graphic Design
                   </Dropdown.Item>
                 <Dropdown.Item className={toggleState === 4 ? "tabs active-tabs" : "tabs"} 
-                  onClick={() =>toogleTab(4)}>
+                  onClick={() =>toggleTab(4)}>
                     Graphic Video
                     </Dropdown.Item>
               </Dropdown.Menu>
@@ -58,8 +57,8 @@ function Portfolio() {
                   <p>{webDesc}</p>
                   </div>
                   <div className="portfolio__item-cta ">
-                  <a href={webGithub} className="btn">Github</a>
-                  <a href={webDemo} className="btn btn-primary">Live Demo</a>
+                    <a href={webDemo} className="btn btn-primary">Live Demo</a>
+                    <a href={webGithub} className="btn btn-secondery">Github</a>
                   </div>
                 </article>
                 )
@@ -131,13 +130,6 @@ function Portfolio() {
     )
     };
 export default Portfolio;
-
-
-
-
-
-
-
 
 
 

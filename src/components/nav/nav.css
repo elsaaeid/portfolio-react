@@ -1,5 +1,5 @@
 nav {
-  background: rgb(0, 0, 0, 0.3);
+  background: var(--color-bg-variant);
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
@@ -24,12 +24,12 @@ nav a {
 }
 
 nav a:hover {
-  background: rgb(0, 0, 0, 0.4);
+  background: var(--color-bg-variant-hover);
 }
 
 nav a.active {
   background: var(--color-primary);
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 @media screen and (max-width: 540px) {
   nav {

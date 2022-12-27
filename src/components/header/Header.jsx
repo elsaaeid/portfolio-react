@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './header.css';
-import CTA from './CTA';
-import ME from '../../assets/me1.png';
+import ME from '../../assets/me.png';
 import HeaderSocials from './HeaderSocials';
 
 
@@ -12,15 +11,13 @@ class Header extends Component {
         return (
             <header>
                 <div className='container header__container'>
-					<h5>Hello I'm</h5>
-					<h1>Elsaaeid</h1>
-					<h5 className='text-light'>ReactJs Developer</h5>
-					<CTA />
-					<HeaderSocials/>
-					<div className='me'>
-						<img src={ME} alt="me" />
+					<div className="profile">
+						<div className='me'>
+							<img className='about_me' src={ME} alt="me" />
+						</div>
+						<h1 className='name'>Elsaaeid</h1>
 					</div>
-					<a href="#contact" className='scroll__down'>Scroll Down</a>
+					<HeaderSocials/>
 				</div>
             </header> 
         )

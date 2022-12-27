@@ -8,7 +8,7 @@ class Footer extends Component {
      
     render() {
         return (
-             <footer>
+             <footer id="footer">
                <a href="#" className="footer__logo">ELSAAEID</a>
 
 	       <ul className="permalinks">

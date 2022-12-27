@@ -10,9 +10,10 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #7e3eff;
-  --color-bg-variant: #463388;
-  --color-primary: #3e0d94;  
+  --color-bg: #ffffff;
+  --color-bg-variant:#6d41a1;
+  --color-bg-variant-hover: #705cb6;
+  --color-primary: #6d41a1;  
   --color-link: #007bff;
   --color-primary-variant: rgba(133, 77, 255, 0.41);
   --color-white: #fff;
@@ -22,26 +23,21 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-sm: 90w;
+  --container-width-sm: 90vw;
 }
 
 
 html {
   scroll-behavior: smooth;
 }
-
-
 body{
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
-  color: var(--color-white);
+  background-color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
 }
-
-
-
-
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-white);
+}
 /*------------------loading-css----------------------*/
 .loader-container {
   width: 100%;
@@ -84,6 +80,7 @@ body{
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  overflow: hidden;
 }
  h1,
  h2,
@@ -95,12 +92,17 @@ body{
  h1{
   font-size: 2.5rem;
 }
+p {
+    font-size: 21px;
+    color: var(--color-bg-variant);
+}
 section {
-  margin-top: 4rem;
+    margin-top: 4rem;
+    text-align: center;
 }
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-bg-variant);
   font-size: 30px;
 }
 section > h2 {
@@ -112,35 +114,53 @@ section > h2 {
   color: var(--color-light);
   font-size: 25px;
 }
-
 a {
-  color: var(--color-link);
-  transition: var(--transition);
+    color: var(--color-white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7rem;
+    transition: var(--transition);
+    cursor: pointer;
 }
-
 a:hover {
-  color: var(--color-white);
+  background: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
 }
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-white);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   font-size: 29px;
   cursor: pointer;
+  background: var(--color-bg-variant-hover);
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
-.btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
-  border-color: transparent;
+a.btn {
+    margin-top: 20px;
+    border: 1px solid var(--color-white);
 }
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
-  font-size: 29px;
+  background: var(--color-bg-variant-hover);
+  color: var(--color-white);
+}
+.btn-primary:hover {
+  background: var(--color-white);
+  color: var(--color-bg-variant);
+  border-color: var(--color-bg-variant);
+}
+.btn-secondry {
+  border: 1px solid var(--color-white);
+  background: var(--color-bg-variant-hover);
+  color: var(--color-white);
+}
+a.btn.btn-secondery:hover {
+  color: var(--color-white);
+  border: 1px solid var(--color-bg-variant);
 }
 img {
   display: block;
@@ -151,7 +171,7 @@ img {
 
 @media screen and (max-width: 1024px) {
   .container {
-    width: var(--container-width-md);
+    width: 100%;
   }
   section {
   margin-top: 1rem;
@@ -162,9 +182,6 @@ img {
 /* ===================MEDIA QUERIES (SMALL DEVICES) =============================*/
 
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
   section > h2 {
   margin-bottom: 2rem;
   }
@@ -174,14 +191,11 @@ img {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 414px) {
-  .container {
-    width: 640px;
-}
-}
+
 @media screen and (max-width: 412px) {
   .container {
     width: 100%;
+    overflow: hidden;
 }
 .text-light {
   font-size: 15px;
@@ -193,15 +207,15 @@ img {
 .about__content p {
   font-size: 19px;
   width: 84vw;
-  margin-left: 123px;
+  color: var(--color-bg-variant);
 }
 a.btn {
-  font-size: 18px;
+  font-size: 10px;
 }
 a.aboutA.btn.btn-primary {
-  margin-left: 120px;
-  width: 15rem;
-  font-size: 33px;
+  width: 108px;
+  font-size: 15px;
+  margin: auto;
 }
 }
 @media screen and (max-width: 375px) {

@@ -22,7 +22,7 @@
   box-shadow: 0 2rem 1rem rgb(0, 0, 0, 0.1);
 }
 .service__head h3 {
-  color: var(--color-bg);
+  color: var(--color-white);
   font-size: 2rem;
   text-align: center;
 }
@@ -74,6 +74,13 @@
   }
   }
   @media screen and (max-width: 280px){
+    article.services {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
     .service__head {
       background: var(--color-primary);
       padding: 2rem;
@@ -82,8 +89,8 @@
       width: 76vw;
   } 
   .service__list {
-    padding: 2rem;
-    margin-left: -38px;
+    padding: 1rem;
+    margin-left: 0px;
 }
 .text-light {
   font-size: 13px;
