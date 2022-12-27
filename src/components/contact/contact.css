@@ -21,7 +21,6 @@
   border: 1px solid transparent;
   transition: var(--transition);
   width: 18rem;
-  margin-right: -60px;
 }
 .contact__option:hover {
   background: transparent;
