@@ -22,6 +22,9 @@
 .experience__container > div:hover h3 {
   color: var(--color-bg-variant);
 }
+.experience__container > div:hover .experience__details-icon {
+  color: var(--color-bg-variant);
+}
 .experience__container > div:hover h4 {
   color: var(--color-bg-variant);
 }
@@ -46,7 +49,7 @@
 }
 .experience__details-icon {
   margin-top: 6px;
-  color: var(--color-primary);
+  color: var(--color-white);
   font-size: 39px;
 }
 article.experience__details h4 {

@@ -78,8 +78,8 @@ function Portfolio() {
                   <p>{webDesc}</p>
                   </div>
                   <div className="portfolio__item-cta ">
-                  <a href={webGithub} className="btn">Github</a>
-                  <a href={webDemo} className="btn btn-primary">Live Demo</a>
+                  <a href={webGithub} className="btn btn-primary">Github</a>
+                  <a href={webDemo} className="btn btn-secondery">Live Demo</a>
                   </div>
                 </article>
                 )
@@ -98,7 +98,7 @@ function Portfolio() {
                 <h6>{gTitle}</h6>
                 </div>
                 <div className="portfolio__item-cta ">
-                <a href={gDemo} className="btn btn-primary">Live Demo</a>
+                <a href={gDemo} className="btn btn-secondery">Live Demo</a>
                 </div>
               </article>
               )
@@ -119,7 +119,7 @@ function Portfolio() {
                 <h6>{vTitle}</h6>
                 </div>
                 <div className="portfolio__item-cta ">
-                <a href={vDemo} className="btn btn-primary">Live Demo</a>
+                <a href={vDemo} className="btn btn-secondery">Live Demo</a>
                 </div>
               </article>
               )
